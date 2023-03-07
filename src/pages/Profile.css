@@ -1,0 +1,79 @@
+.profile-background {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.profile-container {
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid #0000001a;
+    border-radius: 20px;
+    display: flex;
+    /* padding: 0 20px; */
+    background-color: white;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 50px 20px;
+    width: 100%;
+}
+
+.profile-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+
+.profile-form label {
+    text-align: left;
+    margin-top: 15px;
+    color: #757575;
+}
+
+.profile-form input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 8px;
+    outline: none;
+}
+
+.form-message {
+    font-style: 14px;
+    color: red;
+}
+
+.profile-function {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.update-btn, .cancel-btn {
+    border: none;
+    background-color: #5d00ff;
+    color: white;
+    font-size: 12px;
+    width: 15%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+    justify-content: center;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.cancel-btn {
+    background-color: lightgray;
+    color: #5d00ff;
+}
